@@ -1,0 +1,29 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        border: solid black 1px;
+        justify-content: space-around
+    
+    }
+    .linkstopo {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-grow: 2;
+        align-items: center;  
+    }
+    .linkstopo li a{
+        text-decoration: none;
+        
+
+    }
+    #logo {
+        margin-right: 23%;
+    }
