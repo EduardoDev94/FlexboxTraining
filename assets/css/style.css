@@ -27,3 +27,17 @@
     #logo {
         margin-right: 23%;
     }
+    .banner {
+        width: 100%
+    }
+    
+    h1 {
+        text-align:center;
+        margin: 4%
+    }
+    .DoubleImage {
+        display: flex;
+        flex-wrap: wrap;       
+        justify-content:space-around
+
+    }
