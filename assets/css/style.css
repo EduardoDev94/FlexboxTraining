@@ -78,4 +78,15 @@
     .products div h4{
         background-color: white;
     }
-    
+    .sandalia{
+        display:flex;
+        justify-content: space-around;
+     }
+     #quadro1{
+        display:flex;
+        flex-direction:column;
+     }
+     footer {
+        display:flex;
+        justify-content: space-around;
+     }
