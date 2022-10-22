@@ -45,10 +45,11 @@
     }
     .DoubleImage {
         display: flex;
-        flex-wrap: wrap;       
+        flex-wrap: wrap;
         justify-content:space-around;
         height: 90vh;
-           }
+        width: 100%;
+        }
 
     #img1{
         margin: 50px 0px 0px 0px;
@@ -81,12 +82,37 @@
     .sandalia{
         display:flex;
         justify-content: space-around;
+        flex-wrap: wrap;
      }
      #quadro1{
         display:flex;
         flex-direction:column;
+        flex-wrap: wrap;
      }
      footer {
         display:flex;
         justify-content: space-around;
+        background-color: #C2185B;
+        width: 100%;
+        height: 27vh;
+      }
+      
+      footer div {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+     }
+     
+     .doubleImage img {
+        padding:10px
+     }
+
+     .logotexto {
+       display:flex;
+       width: 10%;
+       justify-content: center;
+       height: 24vh;
+     }
+     .sandalia div img {
+        padding: 7%
      }
