@@ -23,7 +23,7 @@
             </li>
         </ul>
     </header>
-    <main>
+    <main class="container">
         <form class="trabalhe-conosco">
             <h1>Faça parte do nosso time</h1>
             <div class="input-wrapper">
@@ -42,21 +42,47 @@
             <div class="departament">
                 <label> Departamento </label>
                 <select name="fuction">Selecione função
+                    <option selected disabled>Selecione uma opção</option>
                     <option value="programador">Programador</option>
                     <option value="marketing">Marketing</option>
                     <option value="administracao">Administracao</option>
                     <option value="comercial">Comercial</option>
                 </select>
             </div>
+                
                 <div class="horario">
-                    <label for="horario">Disponibilidade </label>
-                    <input type="checkbox" name="horario" id="horario" value="Integral (8h)" >
-                    <input type="checkbox" name="horario" id="horario" value="Meio Horário(4h)" >
-                    <input type="checkbox" name="horario" id="horario" value="Freelancer" >
+                    <span>Disponibilidade</span>
+                    <input type="checkbox" id="integral" name="integral"  value="Integral"> 
+                    <label for="integral">Integral (8h)</label>
                     
+                    <input type="checkbox" id="meio-horario" name="meio-horario"  value="meio-horario" >
+                    <label for="meio-horario">Meio Horário(4h)</label>
+                   
+                    <input type="checkbox" id="freelancer" name="freelancer"  value="freelancer" >
+                    <label for="freelancer">Freelancer</label>
                 </div>
-        
-        </form>
+                <div class="contact">
+                    <span>Melhor forma para entrarmos em contato com você?</span>
+                    
+                    <input type="radio" name="contact" id="telefone">
+                    <label for="telefone" id="tel" >Ligação</label>
+                    
+                    <input type="radio" name="contact" id="e-mail">
+                    <label for="e-mail">E-mail</label>
+                   
+                    <input type="radio" name="contact" id="whatsapp">
+                    <label for="whatsapp">Whatsapp</label>
+                </div>
+                <div class="mensage">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <div class="file">
+                    <label for="curriculum">Curriculo</label>
+                    <input type="file" name="curriculo" id="curriculo" accept=".doc, .docx, .pdf, image/*">
+                </div>
+                <button type="submit">Enviar</button>
+             </form>
 
    
    
