@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+header {
+    height: 30vh;
+    background-color: #C2185B;
+}
+.formulario-login {
+    width: 50%;
+    height: 50vh;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 3px 5px 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    background-image: url(/./assets/img/shoes-logo-2.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+.email, .password{
+    display:flex;
+    flex-direction: column;
+    width: 90%
+}
+h1 {
+    color:#9B9B9B;
+    font-size: 1.5rem;
+   }

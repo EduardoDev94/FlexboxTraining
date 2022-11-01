@@ -19,7 +19,6 @@
         display: flex;
         width: 100%;
         flex-wrap: wrap;
-        border: solid black 1px;
         justify-content: space-around;
         background-color: #FFFFFF;
         box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65)
